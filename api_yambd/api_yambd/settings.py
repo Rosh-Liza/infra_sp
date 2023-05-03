@@ -79,7 +79,7 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT',
                           default='5432')
     }
-} 
+}
 
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 CSV_FILES_DIR = os.path.join(BASE_DIR, 'static/data')
