@@ -1,0 +1,3 @@
+[submodule "api_yambd/api_yambd"]
+	path = api_yambd/api_yambd
+	url = git@github.com:Rosh-Liza/api_yamdb.git
